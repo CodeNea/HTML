@@ -1,0 +1,157 @@
+
+body {
+    color: black;
+    background-color: rgb(240, 184, 220);
+    padding: 30px
+}
+/* bodyn avser att bakgrunden blir rosa med svart text och allt dras in 30px */
+
+.home-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* här fixade jag hemlänkens utssende och placering */
+
+p {
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Här ändrade jag tysnitt och storlek på paragraphs */
+
+li {
+  font-family: times;
+  font-size: 20px;
+}
+
+/* Över ändrade jag typsnitt och stolek på punktlistor. */
+ 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 40px;
+    color: #000000;
+    text-align: left;
+    padding: 15px
+}
+
+/* Här ändrade jag placering, typsnitt, färg, indrag och storlek på huvudrubriken. */
+
+h2 {
+    font-family: Georgia;
+    font-size: 30px;
+    margin-top: 20px;
+    color: #000000;
+    text-align: left;
+   
+}
+
+/* Här ändrade jag placering, typsnitt, färg, indrag och storlek på rubrik 2. */
+h3 {
+    font-family: Georgia;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #000000;
+    text-align: left;
+    
+}
+
+/* Här ändrade jag placering, typsnitt, färg, indrag och storlek på rubrik 3. */
+
+img #fralla {
+width: 15%;
+height: 15%;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+/* Här justerade jag bildens storlek och placering på vetefrallor sidan. */
+
+figcaption {
+    font-family: cursive;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+/* Här justerade jag storlek och placering på bildtexten på index sidan. */
+
+img #husmorsknep {
+width: 15%;
+height: 15%;
+justify-content: center;
+align-items: center;
+
+}
+
+/* Här justerade jag huvud bildens storlek och placering på index sidan. */
+
+
+nav {
+font-family: Georgia;
+    font-size: 50px;
+    color: #101010;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px;
+    display: flex; 
+    justify-content: center;
+    gap: 35px;
+}
+
+/* Här justerade jag länkarnas utseende och placering. */
+
+.cookies-image {
+    display: block;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Här justerade jag bildens storlek och placering på index sidan. */
+
+h4 {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px
+
+
+}
+
+/* h4 blev timer rubriken och därför behövde den designas separat med annat typsnitt. */
+
+#countdown {
+    font-size: 48px;
+    text-align: center;
+}
+/* Här justerade jag storlek och placering på nedräkningen.*/
+
+button {
+    padding: 14px 24px;
+    font-size: 20px;
+}
+
+/* Här justerade jag storlek och placering på knapparna. */
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Här fixade jag till storleken och placeringen av timern. */
+
+#ram-ruta {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Här fixade jag till rutan bakom texten. */
